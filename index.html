@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+
+  <title>Social Media Survey</title>
+
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <h1 id="title">Social Media Survey</h1>
+      <p id="description">Thank you for agreeing to take part in this important survey!</p>
+    </header>
+      <form id="survey-form">
+            <div class="form-group">
+        <label id="name-label" for="name">1. Name</label>
+        <input
+          type="text"
+          name="name"
+          id="name"
+          class="form-control"
+          placeholder="Enter your name"
+          required
+        />
+      </div>
+        
+            <div class="form-group">
+        <label id="number-label" for="number"
+          >2. Age</label
+        >
+        <input
+          type="number"
+          name="age"
+          id="number"
+          min="18"
+          max="99"
+          class="form-control"
+          placeholder="Age"
+        />
+      </div>
+         <div class="form-group">
+        <p>
+          3. How often do you use social media?<span class="clue">Check all that apply</span>
+        </p>
+  
+        <label
+          ><input
+            name="prefer"
+            value="front-end-projects"
+            type="checkbox"
+            class="input-checkbox"
+          />Several times a day</label
+        >
+        <label>
+          <input
+            name="prefer"
+            value="back-end-projects"
+            type="checkbox"
+            class="input-checkbox"
+          />Once a day</label
+        >
+        <label
+          ><input
+            name="prefer"
+            value="data-visualization"
+            type="checkbox"
+            class="input-checkbox"
+          />Two to three times in week</label
+        >
+        <label
+          ><input
+            name="prefer"
+            value="challenges"
+            type="checkbox"
+            class="input-checkbox"
+          />Weekly
+  </label
+        >
+        <label
+          ><input
+            name="prefer"
+            value="open-source-community"
+            type="checkbox"
+            class="input-checkbox"
+          />Monthly</label
+        >
+        <label
+          ><input
+            name="prefer"
+            value="gitter-help-rooms"
+            type="checkbox"
+            class="input-checkbox"
+          />Less than one time per month</label
+        >
+        <label
+          ><input
+            name="prefer"
+            value="videos"
+            type="checkbox"
+            class="input-checkbox"
+          />Never</label
+        >
+      </div>
+    
+        <div class="form-group">
+          <p>4. How do you access social media? </p>
+        <select id="dropdown" name="role" class="form-control" required>
+          <option disabled selected value>Please Select</option>
+          <option value="student">Personal computer at home</option>
+          <option value="job">Smartphone</option>
+          <option value="learner">Tablet</option>
+          <option value="preferNo">Computer at my place of employment</option>
+          <option value="other">Other</option>
+        </select>
+      </div>
+            <div class="form-group">
+        <label id="name-label" for="platform">5. What social media platform do you currentlly use?</label>
+        <input
+          type="text"
+          name="platform"
+          id="platform"
+          class="form-control"
+          placeholder="Type social media"
+          required
+        />
+      </div>
+           <div class="form-group">
+        <p>6. Do you accept friend request from people you do not know??</p>
+        <label>
+          <input
+            name="user-recommend"
+            value="yes"
+            type="radio"
+            class="input-radio"
+            checked
+          />Yes</label
+        >
+        <label>
+          <input
+            name="user-recommend"
+            value="No"
+            type="radio"
+            class="input-radio"
+          />No</label
+        >
+      </div>
+         <div class="form-group">
+        <p>Add if you have any comments</p>
+        <textarea
+          id="comments"
+          class="input-textarea"
+          name="comment"
+          placeholder="Enter your comment here..."
+        ></textarea>
+      </div>
+       <div class="form-group">
+        <button type="submit" id="submit" class="submit-button">
+          Submit
+        </button>
+      </div>
+      </form>
+  </div>
+</body>
+</html>

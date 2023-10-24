@@ -1,0 +1,142 @@
+body {
+    font-family: Gotham, Arial, sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 17px;
+    color: #000033;
+    margin: 0;
+  }
+  
+  body::before {
+    content: "";
+    position: fixed;
+    top:0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    background-image:
+      url(https://visme.co/blog/wp-content/uploads/2017/07/50-Beautiful-and-Minimalist-Presentation-Backgrounds-03.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  h1 {
+    font-size: 30px;
+    line-height: 32px;
+    color: #333333;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+  
+  p{
+    font-size: 20px;
+    line-height: 22px;
+    color: #333333;
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+  
+  label {
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    margin-bottom: 3px;
+  }
+  
+  #submit {
+    border: none;
+    display: block;
+    width: 150px;
+    padding: 10px;
+    color: #ffffff;
+    background: #ff1a1a;
+    border-radius: 2px;
+    cursor: cell;
+  }
+  
+  .input-textarea {
+    min-height: 100px;
+    width: 300px;
+    padding: 10px;
+    resize: both;
+  }
+  
+  .input-radio,
+  .input-checkbox {
+    display: inline-block;
+    margin-right: 10px;
+    min-height: 15px;
+    min-width: 15px;
+  }
+  
+  .container {
+    width: 100%;
+    margin: 30px auto 0 auto;
+  }
+  
+  @media (min-width: 480px) {
+    .container {
+      max-width: 460px;
+    }
+  }
+  
+  header {
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  #description {
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 800;
+  }
+  
+  .clue {
+    margin-left: 5px;
+    font-size: 15px;
+    color: #ff1a1a;
+  }
+  
+  form {
+    background: white;
+    padding: 40px 20px;
+    border-radius: 30px;
+  }
+  
+  @media (min-width: 480px) {
+    form {
+      padding: 40px;
+    }
+  }
+  
+  .form-group {
+    margin: 0 auto 5px auto;
+    padding: 10px;
+  }
+  
+  #dropdown {
+    height: 30px;
+  }
+  
+  .form-control{
+    display: block;
+    width: 300px;
+    height: 30px;
+    padding: 5px 10px;
+    color: #000000;
+    background-color: #ffffff;
+    border: 2px solid #a6a6a6;
+    border-radius: 40px;
+  }
+  
+  .input-textarea {
+    min-height: 120px;
+    width: 100%;
+    padding: 10px;
+    resize: both;
+  }
+  
+  
